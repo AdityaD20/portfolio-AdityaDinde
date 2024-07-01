@@ -1,4 +1,4 @@
-
+ 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;700&family=Rancho&family=The+Nautigal:wght@400;700&family=Titan+One&family=Ubuntu:wght@300;400;500&display=swap');
 * {
     margin: 0;
@@ -16,9 +16,9 @@ body{
 }
 
 :root {
-    --dark:  #fd7e0d/* #0d6efd*/;
+    --dark: #0d6efd;
     --white: #ffffff;
-    --orange: #fd7e0d/*#0d6efd*/;
+    --orange: #0d6efd;
     --black:#212529;
     --sky:#0dcaf0;
     --gradient:linear-gradient(80deg,
@@ -256,7 +256,7 @@ body{
     color: var(--orange) !important;
     transition: 0.7s;
 }
-/*
+
 .nav-link-1::before {
     content: '';
     position: absolute;
@@ -267,7 +267,7 @@ body{
     height: 0px;
     transition: 0.7s;
     border-radius: 5px;
-}*/
+}
 
 .nav-link-1:hover::before {
     width: 35%;
@@ -277,10 +277,10 @@ body{
 }
 
 .active-home {
-    color: #fd7e0d !important;
+    color: var(--orange) !important;
 }
 
-/*.active-home::before {
+.active-home::before {
     content: '';
     position: absolute;
     top: 25%;
@@ -290,17 +290,17 @@ body{
     height: 32px;
     border-radius: 5px;
     transition: 0.7s;
-}*/
-/*
+}
+
 .icon-hover {
-    color: #fd7e0d/*var(--dark)*/ !important;
- /*   cursor: pointer;
-}*/
-/*
+    color: var(--dark) !important;
+    cursor: pointer;
+}
+
 .icon-hover:hover {
-    color: #fd7e0d/*var(--orange)*/ !important;
-/*}
-*/
+    color: var(--orange) !important;
+}
+
 @media (max-:992px) {
     .nav-link-1 {
         text-align: center !important;
@@ -327,7 +327,7 @@ body{
 .main-body{
     background:linear-gradient(rgba(0, 2, 8, 0.868)
     ,rgba(10, 0, 10, 0.655)),
-    url('image/e.jpg');
+    url('e.jpg');
     background-attachment: fixed;
     background-position: top;
     padding-bottom: 8% !important;
@@ -335,7 +335,6 @@ body{
     background-size: cover;
     
 }
-/*
 .icon-center{
     padding-top: 5px;
     text-align: center;
@@ -346,8 +345,7 @@ body{
 .icon-hover-1:hover{
     color: var(--white);
     transition: 0.5s;
-}*/
-
+}
 .over-1{
     border-radius: 50% 45%;
     position: relative;
@@ -435,7 +433,7 @@ body{
     }
     
 } */
- 
+
 .text-m{
     position: absolute;
     z-index: 56;
@@ -789,7 +787,7 @@ body {
         padding: 50px 0px 50px 0px;
         background:linear-gradient(rgba(0, 2, 8, 0.868)
         ,rgba(10, 0, 10, 0.655)),
-        url('image/12.jpg');
+        url('12.jpg');
         background-attachment: fixed;
         background-position: top;
         background-repeat: no-repeat;
@@ -836,7 +834,7 @@ body {
     width: 200%;
     height: 100%;
     background:linear-gradient(176deg,#2b00ff80,#050000 ,
-    #5005ff48), url(image/13.jpg);
+    #5005ff48), url(13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1026,5 +1024,3 @@ body {
     padding: 200px 0px 0px 0px;
     color: white;
 }
-
- 
