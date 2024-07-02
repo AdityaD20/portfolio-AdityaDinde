@@ -292,7 +292,7 @@ body{
 .main-body{
     background:linear-gradient(rgba(0, 2, 8, 0.868)
     ,rgba(10, 0, 10, 0.655)),
-    url('image/e.jpg');
+    url('e.jpg');
     background-attachment: fixed;
     background-position: top;
     padding-bottom: 8% !important;
@@ -405,12 +405,7 @@ body{
     position: absolute;
     z-index: 56;
 }
-  /* background-image: url('image/pngsasfie99.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 13;
-    padding: 230px 0px; */
+  
 
 /* ---------------------------------------------
 ////////////////main-body//////////////////
@@ -754,7 +749,7 @@ body {
         padding: 50px 0px 50px 0px;
         background:linear-gradient(rgba(0, 2, 8, 0.868)
         ,rgba(10, 0, 10, 0.655)),
-        url('image/12.jpg');
+        url('12.jpg');
         background-attachment: fixed;
         background-position: top;
         background-repeat: no-repeat;
@@ -801,7 +796,7 @@ body {
     width: 200%;
     height: 100%;
     background:linear-gradient(176deg,#2b00ff80,#050000 ,
-    #5005ff48), url(image/13.jpg);
+    #5005ff48), url(13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -899,7 +894,7 @@ body {
 .img-slide-1::before{
     content: '';
     position: absolute;
-    background-image: url(image/Un87titled-11.png);
+    background-image: url(Un87titled-11.png);
     background-position: center;
     background-size: 109% 107%;
     background-repeat: no-repeat;
